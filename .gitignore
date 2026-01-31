@@ -1,0 +1,5 @@
+dataset_yolo/
+row_data/
+runs/
+Test/
+venv/

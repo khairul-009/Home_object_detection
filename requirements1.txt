@@ -1,0 +1,21 @@
+# Requirements for YOLO Home Items Detection Streamlit App
+# =========================================================
+# Install these packages using: pip install -r requirements.txt
+
+# Core Dependencies
+ultralytics>=8.0.0          # YOLOv8 implementation
+opencv-python>=4.8.0        # Image processing and computer vision
+pillow>=10.0.0              # Image handling and manipulation
+numpy>=1.24.0               # Numerical operations
+streamlit>=1.30.0           # Web application framework
+
+# Deep Learning Framework
+torch>=2.0.0                # PyTorch (required by ultralytics)
+torchvision>=0.15.0         # PyTorch vision utilities
+
+# Optional but Recommended
+pandas>=2.0.0               # Data manipulation for statistics
+matplotlib>=3.7.0           # Plotting and visualization (optional)
+
+# Additional Utilities
+python-multipart>=0.0.6     # For file upload handling
